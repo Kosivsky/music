@@ -1,0 +1,199 @@
+body {
+    font-family: 'Sofia Sans', sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu {
+    overflow: hidden;
+}
+
+
+.menu-inner {
+    margin: 29px 213px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.nav li {
+    font-size: 24px;
+    height: 29px;
+    padding-right: 100px;
+    overflow-wrap: normal;
+}
+
+.faq {
+    width: 30px;
+    margin-left: 450px;
+}
+
+.nav a:hover, .nav a:focus {
+    color: rgb(205, 205, 205)
+}
+
+.line-header {
+    border: 0.5px solid rgb(129, 129, 129);
+    width: 1425px;
+    margin-top: 0px;
+    margin-left: 245px;
+}
+
+h1 {
+    font-size: 150px;
+    font-weight: 700;
+    color: #fff;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.section1 {
+    width: 1920px;
+    height: 1080px;
+    background-image: url(/img/Rectangle\ 64.jpg)
+}
+
+/* Hero section */
+.hero-title {
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    width: 665px;
+    height: 195px;
+    margin-top: 0px;
+    margin-left: 644px;
+}
+
+.rombs {
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 17px; 
+    margin-top: 150px;
+    margin-left: 890px;
+    padding: 0;
+
+}
+
+.hero-section h2 {
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    color: #B5FBFF;
+    font-size: 40px;
+    width: 479px;
+    height: 50px;
+    margin-left: 725px;
+}
+
+.hero-section button {
+    cursor: pointer;
+    border: none;
+    background-color: #83FFCB;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    width: 177px;
+    height: 61px;
+    margin-top: 100px;
+    margin-left: 875px;
+}
+
+.hero-section button:hover ,.hero-section button:focus {
+    background-color: #5affba;
+}
+
+.hero-table {
+    width: 1920px;
+    height: 213px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-table p, .hero-table a {
+    color: #83FFF8;
+    font-size: 24px;
+}
+
+.adress {
+    width: 320px;
+    height: 150px;
+}
+.adress h3 {
+    width: 72px;
+    height: 25px;
+    margin-left: 124px;
+    margin-top: 0;
+}
+.adress p {
+    width: 320px;
+    height: 102px;
+    text-align: center;
+    justify-content: center;
+}
+
+.tel {
+    width: 320px;
+    height: 150px;
+}
+
+.tel h3 {
+    width: 72px;
+    height: 25px;
+    margin-left: 124px;
+    margin-top: 0;
+}
+
+.tel a {
+    width: 320px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.graf {
+    width: 320px;
+    height: 150px;
+}
+
+.graf h3 {
+
+    white-space: nowrap;
+    width: 140px;
+    height: 25px;
+    margin-left: 90px;
+    margin-top: 0;
+}
+
+.graf p {
+    width: 320px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
